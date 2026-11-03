@@ -22,7 +22,7 @@ st.markdown("""
 }
 
 h1, h2, h3, p, label {
-    color: white !important;
+    color: green !important;
 }
 
 .stopwatch-title {
@@ -241,6 +241,6 @@ if st.session_state.laps:
 # ---------- FOOTER ----------
 st.markdown("""
 <div class="footer">
-    SIMPLE STOPWATCH • BUILT WITH PYTHON & STREAMLIT
+    STOPWATCH 
 </div>
 """, unsafe_allow_html=True)
