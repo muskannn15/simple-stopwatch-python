@@ -1,6 +1,6 @@
 
 import time
-import streamlit as s
+import streamlit as st
 
 st.set_page_config(
     page_title="Simple Stopwatch",
